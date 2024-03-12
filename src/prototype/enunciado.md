@@ -1,0 +1,7 @@
+# Prototype
+La alcaldía de Medellín se encuentra en la búsqueda de una solución eficiente y fácilmente mantenible para la gestión de documentos en su aplicación de procesamiento de texto. El objetivo es agilizar los trámites que requieren la creación y gestión de diversos tipos de archivos, como artículos e informes, sin tener que recrearlos desde cero en cada ocasión.
+El principal desafío radica en la necesidad de crear copias de documentos existentes con pequeñas modificaciones según las necesidades específicas de cada trámite. Esto implica la implementación de un sistema que permita clonar documentos de manera rápida y precisa, evitando la tediosa tarea de empezar desde cero cada vez que se requiere un nuevo documento.
+
+
+
+**Justificación:** El patrón Prototype da solución a este problema ya que se utiliza cuando la creación de objetos es costosa o compleja, y la creación de nuevos objetos puede realizarse a partir de la clonación de un prototipo existente. En este caso, la aplicación de procesamiento de texto de la alcaldía necesita crear copias de documentos existentes con pequeñas modificaciones. En lugar de comenzar desde cero cada vez, el patrón Prototype permite clonar un documento existente y luego realizar las modificaciones necesarias.

@@ -6,6 +6,3 @@ Una vez que se realiza la compra, el sistema debe generar un resumen detallado d
 
 
 **Justificación:** el patrón Builder da solución al problema ya que este patrón permite construir un objeto paso a paso, delegando la creación de partes específicas a diferentes constructores. Esto ayuda a mantener un código limpio y modular, además de permitir la creación de diferentes variaciones del objeto sin necesidad de tener múltiples constructores.
-
-**Diagrama.**
-![](https://github.com/Cvaz007/disign-patterns/tree/master/public/imgs/builder.png)

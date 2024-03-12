@@ -1,0 +1,8 @@
+# Prototype
+La constructora GSI se enfrenta al desafío de implementar un sistema de control de acceso para gestionar el ingreso y salida de sus numerosos empleados de manera eficiente. Dada la gran cantidad de trabajadores y la necesidad de una configuración flexible y fácilmente modificable, es fundamental desarrollar una aplicación que pueda adaptarse rápidamente a los cambios en los horarios y políticas de la empresa.
+El sistema debe permitir registrar la entrada y salida de los empleados en las diferentes sedes y obras de la constructora de manera precisa y oportuna. Además, debe ser capaz de generar informes detallados sobre la asistencia del personal, lo que facilitará la gestión de recursos humanos y la planificación de horarios.
+Dado que la configuración del sistema puede cambiar con frecuencia debido a fluctuaciones en la plantilla de empleados, cambios en los turnos de trabajo o la apertura de nuevas sedes u obras, es crucial que esta configuración sea global y fácilmente modificable. Esto significa que los ajustes realizados en la configuración deben aplicarse de manera uniforme en todo el sistema, sin necesidad de reconfigurar cada instancia individualmente.
+
+
+
+**Justificación:**  El patron singleton da solución al problema ya que a veces es necesario tener una única instancia de una clase en toda la aplicación, por ejemplo, para gestionar la configuración de la aplicación, el registro de usuarios, o conexiones a bases de datos. El patrón Singleton garantiza que una clase tenga solo una instancia y proporciona un punto de acceso global a esa instancia.
