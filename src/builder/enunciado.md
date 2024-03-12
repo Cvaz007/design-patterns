@@ -1,0 +1,10 @@
+# Builder
+
+La multinacional INTEZ ha decidido ampliar su presencia en el mercado electrónico mediante el desarrollo de un sistema de ventas en línea. Con la creciente demanda de sus electrodomésticos, se enfrentan a la necesidad de ofrecer una plataforma robusta que permita a los clientes realizar sus compras de manera eficiente. Este sistema debe ser capaz de gestionar la selección de uno o varios productos de su extenso catálogo, incluyendo electrodomésticos de diversa índole, desde lavadoras hasta refrigeradores de última generación.
+Además de la selección de productos, el sistema debe proporcionar una sección de pagos segura y confiable. Aquí, los clientes podrán ingresar toda su información personal, incluida la dirección de envío para la entrega de los productos, así como seleccionar el método de pago preferido, ya sea mediante tarjeta de crédito, transferencia bancaria o pago en efectivo contra entrega.
+Una vez que se realiza la compra, el sistema debe generar un resumen detallado de la orden, mostrando información tanto de los productos adquiridos como de los datos del cliente. Esta información es crucial tanto para los clientes, que desean verificar su pedido, como para INTEZ, que necesita mantener un registro preciso de las transacciones realizada
+
+
+**Justificación:** el patrón Builder da solución al problema ya que este patrón permite construir un objeto paso a paso, delegando la creación de partes específicas a diferentes constructores. Esto ayuda a mantener un código limpio y modular, además de permitir la creación de diferentes variaciones del objeto sin necesidad de tener múltiples constructores.
+
+**Diagrama.**
