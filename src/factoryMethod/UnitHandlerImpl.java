@@ -12,11 +12,11 @@ public class UnitHandlerImpl extends UnitHandler{
 
     @Override
     public Unit createUnit(String type) {
-        if (type.equalsIgnoreCase("solder")){
+        if (type.equalsIgnoreCase("zona urbana")){
             return new Solder();
-        }else if (type.equalsIgnoreCase("tank")){
+        }else if (type.equalsIgnoreCase("zona boscosa")){
             return new Tank();
-        }else if (type.equalsIgnoreCase("airplane")){
+        }else if (type.equalsIgnoreCase("zona costera")){
             return new Airplane();
         }else return null;
     }
