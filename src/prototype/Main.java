@@ -1,7 +1,9 @@
+package prototype;
+
 public class Main {
     public static void main(String[] args) {
-        ArticleDocument article1 = new ArticleDocument("edwinson cabeza de picha");
-        ReportDocument report1 = new ReportDocument("edwinson malparido");
+        ArticleDocument article1 = new ArticleDocument("edwinson el ingeniero");
+        ReportDocument report1 = new ReportDocument("edwinson el nuevo investigador de la nasa");
 
         DocumentManager documentManager = new DocumentManager();
         documentManager.addDocument("Articulo 1", article1);
