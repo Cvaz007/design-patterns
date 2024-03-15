@@ -1,3 +1,5 @@
+package prototype;
+
 public class Main {
     public static void main(String[] args) {
         ArticleDocument article1 = new ArticleDocument("edwinson cabeza de picha");

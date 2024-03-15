@@ -1,3 +1,5 @@
+package prototype;
+
 public class ReportDocument extends DocumentPrototype {
 
     public ReportDocument(String content) {
