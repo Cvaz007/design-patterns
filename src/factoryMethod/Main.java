@@ -6,13 +6,13 @@ public class Main {
         unitHandler = new UnitHandlerImpl(ext);
     }
     public static void main(String[] args) {
-        configure("tank");
+        configure("zona urbana");
         unitHandler.processUnit();
 
-        configure("airplane");
+        configure("zona boscosa");
         unitHandler.processUnit();
 
-        configure("solder");
+        configure("zona urbana");
         unitHandler.processUnit();
 
     }
