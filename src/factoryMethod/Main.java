@@ -6,7 +6,7 @@ public class Main {
         unitHandler = new UnitHandlerImpl(ext);
     }
     public static void main(String[] args) {
-        configure("zona urbana");
+        configure("zona costera");
         unitHandler.processUnit();
 
         configure("zona boscosa");
