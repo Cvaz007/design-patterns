@@ -1,3 +1,5 @@
+package builder;
+
 public class PaymentMethod {
 
     private String type;

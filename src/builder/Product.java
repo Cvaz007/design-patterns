@@ -1,3 +1,5 @@
+package builder;
+
 public class Product {
 
     private String name;
